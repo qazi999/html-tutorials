@@ -1,0 +1,95 @@
+/* Syntax and Including CSS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+.primary {
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+.secondary {
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+.tertiary {
+    color: #ffffff;
+    background-color: #28a745;
+}
+
+/* Text */
+.large-text {
+    font-size: 2rem;
+}
+
+.medium-text {
+    font-size: 1.5rem;
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+/* Box Model */
+.box {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #e9ecef;
+}
+
+.flex-item {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Animations */
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    margin: 20px auto;
+    animation: rotate-scale 4s infinite;
+}
+
+@keyframes rotate-scale {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.5);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+ <link rel="stylesheet" href="styles.css">
+    <title>Student Website</title>
+</head>
+<body>
+    <h1>Welcome to the Student Website</h1>
+
+    
+    <h2>Signup Form</h2>
+    <form action="/action.php">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="male">
+        <input type="radio" value="male" id="male" name="gender">male
+        </label>
+
+        <label for="female">
+        <input type="radio" value="female" id="female" name="gender">female<br>
+        </label>   
+        <h4>Please select your city</h4>
+        <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Agra">Agra</option>
+        <option value="Srinagar">Srinagar</option>
+        <option value="Goa">Goa</option>
+        <option value="Mumbai">Mumbai</option>
+        </select><br><br>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <!-- Embedded Coding Video -->
+    <h2>Apna College Coding Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=2hD78MfdD-mU2KLp"
+     title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>
+    <!-- Topics Table -->
+    <h2>Topics Covered</h2>
+    <table border="1">
+        <tr>
+            <th>Topic</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Learn the basics of web structure.</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Style your website to make it attractive.</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Add interactivity to your website.</td>
+        </tr>
+    </table>
+</body>
+</html>

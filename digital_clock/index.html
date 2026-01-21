@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =======================
+         SEARCH BAR SECTION
+         ======================= -->
+         
+    <div class="search-container">
+        <input type="text" id="countryInput" placeholder="Search country..." 
+               onfocus="showList()" onkeyup="filterCountries()">
+        <div id="countryList" class="country-list"></div>
+    </div>
+
+  <div class="clock-container search-clock">
+    <h2 id="countryName">---</h2>
+    <h1 id="countryClock">--:--:--</h1>
+</div>
+
+    <!-- =======================
+         DEFAULT CLOCKS
+         ======================= -->
+    <div class="clock-wrapper">
+        <div class="clock-container">
+            <h2>🇺🇸 USA (New York)</h2>
+            <h1 id="usaClock">00:00:00</h1>
+        </div>
+
+        <div class="clock-container">
+            <h2>🇮🇳 India (IST)</h2>
+            <h1 id="indiaClock">00:00:00</h1>
+        </div>
+    </div>
+    
+
+    <!-- =======================
+         JAVASCRIPT
+         ======================= -->
+    <script src="script.js"></script>
+</body>
+</html>

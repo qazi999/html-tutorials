@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    background-color: #f0f0f0; /* Light gray background for the page */
+    color: #333; /* Dark gray text for readability */
+}
+
+/* Header styles */
+h1 {
+    color: #ffffff; /* White text */
+    background-color: #4CAF50; /* Green background */
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: #ffffff; /* White text */
+    background-color: #333; /* Dark gray background */
+    padding: 5px;
+}
+
+h4 {
+    color: #333; /* Dark gray text */
+    background-color: #f0f0f0; /* Matches body background */
+    padding: 5px;
+}
+
+/* Form styles */
+form {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray text */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border: 2px solid #4CAF50; /* Green border for emphasis */
+}
+
+form label {
+    color: #4CAF50; /* Green text */
+}
+
+form input, form select {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark gray text */
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+form button {
+    background-color: #4CAF50; /* Green background */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049; /* Slightly darker green */
+}
+
+/* Table styles */
+table {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray text */
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #4CAF50; /* Green background */
+    color: #ffffff; /* White text */
+}
+
+table td {
+    background-color: #f9f9f9; /* Light gray background for rows */
+    color: #333; /* Dark gray text */
+}
+
+table tr:nth-child(even) td {
+    background-color: #e0e0e0; /* Slightly darker gray for alternate rows */
+}
+
+/* Video iframe styles */
+iframe {
+    background-color: #000000; /* Black background around the video */
+    display: block;
+    margin: 20px auto;
+}
+ 
