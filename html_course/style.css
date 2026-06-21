@@ -13,6 +13,20 @@ li {
   color: #444;
 }
 
+main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0px;
+}
+
 h1,
 h2,
 h3 {
@@ -81,6 +95,7 @@ footer p {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 aside {
@@ -91,6 +106,13 @@ aside {
 }
 
 body {
+}
+
+.container {
+  width: 700px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 0 auto;
 }
 
 li:first-child {
@@ -135,4 +157,9 @@ article {
 
 nav {
   font-size: 18px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
